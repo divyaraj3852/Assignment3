@@ -1,0 +1,145 @@
+
+
+/*---------custom font------------*/
+@font-face {
+  font-family: mori;
+  src: url(mori.ttf);
+}
+
+body{
+    padding: 25px;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    flex: 1;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: mori;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav li a{
+    font-size: large;
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+}
+/*---hover effect--------*/
+nav li a:hover{
+  color: red;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+/*-------multi backgrount------*/
+.main{
+    font-size:larger;
+    
+    background-image: url(bg3.jpg), linear-gradient(to right, rgb(12, 101, 180), rgba(255, 255, 255, 0));
+    background-size: 19em, 100rem;
+    background-position: right center, left top;
+    background-repeat: no-repeat, no-repeat;
+    padding: 15px;
+}
+.main h1 {
+    font-size: 45px;
+    padding: 50px;
+
+}
+.main h1 spam{
+  font-family: mori;  
+  font-size: 65px;
+}
+
+/*-------our candy-------*/
+
+.main2 {
+  background-image: linear-gradient(to left, rgb(180, 215, 8), rgba(227, 20, 20, 0));
+}
+
+.title{
+  text-align: center;
+}
+
+.title p{
+   font-size: 40px;
+   font-weight: bold;
+   font-family: mori;
+   
+}
+
+
+.products{
+    display: inline-flex;
+    max-width:1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+ .pro-1{
+    flex-basis: 30%;
+    padding: 10px;
+    min-width: 350px;
+    margin-bottom: 25px;
+  }
+
+.pro-1 img{
+    padding: 25px;
+    padding-left: 150px;
+    width: 100%;
+    border-radius: 8px;
+  
+  }
+
+  .products2{
+    display: inline-flex;
+    max-width:1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .pro-2{
+    flex-basis: 30%;
+    padding: 10px;
+    min-width: 350px;
+    margin-bottom: 25px;
+  }
+  .pro-2 img , p{
+    text-align: center;
+    font-size: 25px;    
+    margin: 15px;
+    padding-left: 150px;
+    width: 100%;
+    border-radius: 8px;
+  
+  }
+
+
+  /*-------footer----------*/
+
+  footer{
+    background-color: black;
+    color: azure;
+  }
+
+  .company-info a{
+    text-decoration: none;
+    text-align: center;
+    color: azure;
+    font-size: large;
+  }
+
+  
+ 
+
